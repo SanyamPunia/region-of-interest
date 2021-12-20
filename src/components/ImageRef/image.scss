@@ -1,0 +1,41 @@
+.container {
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8em;
+  gap: 2em;
+
+  button {
+    font-size: 1em;
+    font-weight: 700;
+    padding: 1em;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    background-color: #4ac1b5;
+    color: #fff;
+    transition: 0.2s all ease;
+
+    &:hover {
+      background-color: #358d84;
+    }
+
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+
+  h1 {
+    font-weight: 800;
+    color: #ee7474;
+    font-size: 3.5em;
+  }
+
+  img {
+    width: 1000px;
+  }
+}
